@@ -28,6 +28,7 @@ public class Ejecutor1 {
             listaDistancia.get(i).calcularMatriculaDistancia();
         }
         
+        
         ReporteDistancia rd = new ReporteDistancia("Reporte Distancia", 
                 "Derecho", "Sexto");
         rd.establecerLista(listaDistancia);
